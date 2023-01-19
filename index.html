@@ -1,0 +1,160 @@
+<!DOCTYPE html> <!--Esto hace referencia a HTML5-->
+
+<html class="no-js" lang="es">
+
+	<head>  <!-- Titulo, descripcion, autor, archivos externos, codificacion  -->
+
+		<meta charset = "utf-8"> <!--Indicar codificacion al navegador, signos con acentos, las enies -->
+
+		<title>AnaCafé Guatemala | AnaCafé | Asociación Nacional del Café</title>  <!--Titulo + descripcion al buscar en google -->
+		<meta name="description" content="Bienvenido a AnaCafé. Contenido de AnaCafé. Diversidad de cosas con respecto a AnaCafé".>	
+		<meta name="keywords" content="AnaCafé, Contenido, Eventos">
+		<meta name="autor" content="Victor Cancinos - xdxdxd">
+
+		<!-- Mandar ruta:  rel: Tipo de enlace, href: enclace de ruta -->
+		<link rel="stylesheet" href="css/styles.css">
+		<!-- Archivo con referencia a Java Script-->
+		<script src="js/modernizr-custom.js"></script>
+
+	  <!--<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+      <!--Import materialize.css-->
+     <!-- <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>-->
+      <!--Let browser know website is optimized for mobile-->
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+
+	</head>
+    
+	<body> <!-- Aparece lo que se ve en la pagina web -->
+
+		 <!--Import jQuery before materialize.js-->
+      <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="assets/js/materialize.min.js"></script>-->
+
+
+		<div id="wrapper">
+		<div id="linea-superior"></div> <!-- Div es un espacio en el HTML-->
+
+		<header> <!-- Ahi va el logo, menu, iconos, etc. -->
+			<img id="logo" src="images/logo.png" alt="ANACAFÉ Asociacion Nacional del Café">
+
+			<!-- <ul> Es para elementos en lista desordenados -->
+			<!-- <ol> Es para elementos en lista ordenados -->
+			<!-- <ol> Iconos sociales -->
+			<ul class="iconos-sociales"> 
+				<li class="facebook"> <a href="https://www.facebook.com/Anacafé-1668087873426995/?fref=ts">  </a> </li>
+				<li class="twitter"> <a href="https://twitter.com/cafedeguatemala?lang=es">  </a> </li>
+				<li class="correo"> <a href="#"> </a> </li>
+				<li class="rss"> <a href="#">  </a> </li>
+			</ul >
+
+			<!-- Menu de login -->
+			<h5 id="login">Ingresar</h5>
+			<button type="submit" id="boton-login"></button>
+			
+			<h6 id="sin-cuenta">¿No tienes cuenta?	¡Registrate Aquí!</h6>
+
+			<!-- Buscador Interno -->
+			<form method="get" id="formulario-buscar" action="#"> <!-- Crea formulario -->
+				<input type="text"  placeholder="BUSCAR..." id="s"/>
+				<button type="submit" id="boton-buscar"></button>
+			</form>
+
+			<!-- Menu principal -->
+			<nav> <!-- Navegador -->
+				<ul>
+					<li><a href="#">Inicio </a> </li>
+					<li><a href="#">Quienes somos </a> </li>
+					<li><a href="#">Servicios </a> </li>
+					<li><a href="#">Portafolio </a> </li> 
+					<li><a href="#">Contacto </a> </li>
+				</ul>
+			</nav>
+ 
+		</header> 
+
+		<!-- Portada o cuerpo de la pagina -->
+		<h2 id="eslogan">Anacafé es una empresa con<br>el objetivo de<br>ayudar a la<br>caficultura <br>nacional</h2>
+		<a class="boton-contacto" href="#">Contacta Ahora</a>
+		<img id="portada" src="images/anuncio.jpg" alt="Anacafé es una empresa sin fines de lucro para
+		apoyar a la caficultura de Guatemala"> 
+
+		<section>
+			<div class="tres-cols">
+				<img class="destacado" src="images/icono-equipo.png" alt="Equipo"/>
+				<h3>El Equipo</h3>
+				<p>AnaCafe apoya el desarrolo del cafe y los caficultores en Guatemala.</p>
+			</div>
+
+			<div class="tres-cols">
+				<img class="destacado" src="images/icono-trabajo.png" alt="Trabajo"/>
+				<h3>Cómo Trabajamos</h3>
+				<p>Trabajamos en la calidad del café y otras areas administrativas.</p>
+			</div>
+
+			<div class="tres-cols">
+				<img class="destacado" src="images/icono-clientes.png" alt="Clientes"/>
+				<h3>Nuestros Clientes</h3>
+				<p>Las referencias de nuestros clientes avalan nuestro trabajo.</p>
+			</div>
+		</section>
+
+		<div class="clearfix"></div>
+
+		<!-- Opiniones de clientes -->
+		<section class="container" id="opinion">
+			<blockquote> <!--Etiqueta que se usa para citar a alguien, un cliente -->
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, distinctio totam quasi soluta vel saepe neque odio excepturi. Fugit sed nostrum corporis neque facere earum amet ducimus fugiat voluptatem adipisci." 
+				<span> - Sonia Gutiérrez (Aresta SL.) </span>
+			</blockquote>
+		</section>
+
+		<!-- Logos -->
+		<ul class="lista-logos">
+			<li class="cinco-cols"><a href="#" rel="nofollow"><img src="images/logo_01.png" alt="Logo"></a></li>
+			<li class="cinco-cols"><a href="#" rel="nofollow"><img src="images/logo_02.png" alt="Logo"></a></li>
+			<li class="cinco-cols"><a href="#" rel="nofollow"><img src="images/logo_03.png" alt="Logo"></a></li>
+			<li class="cinco-cols"><a href="#" rel="nofollow"><img src="images/logo_04.png" alt="Logo"></a></li>
+			<li class="cinco-cols"><a href="#" rel="nofollow"><img src="images/logo_05.png" alt="Logo"></a></li>
+		</ul>
+
+		<div class="clearfix"></div>
+
+		<!--Pie de pagina -->
+		<footer>
+		<div class="container">
+
+			<div class="dos-cols">
+				 <h2>ANACAFÉ</h2>
+				 <P>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, distinctio totam quasi <br>soluta vel saepe neque odio excepturi. Fugit sed nostrum corporis neque facere earum <br> amet ducimus fugiat voluptatem adipisci." 
+				 - Sonia Gutiérrez (Aresta SL.)</P>
+				<h3>Dónde Estamos</h3>
+				<p>5ta Calle 0 -50 Zona 14 Guatemala</p> 
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1623.4190834387198!2d-90.51863508895966!3d14.589783291877037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa2bef0f80adc47d8!2sANACAFE.+Asociaci%C3%B3n+Nacional+Del+Caf%C3%A9!5e0!3m2!1ses!2sgt!4v1484261643576" width="560" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>	
+
+			<div class="dos-cols2">
+				<form class="widget-contacto" action="#" method="post">
+					<h2 id="contacta-ahora">¡Contacta Ahora!</h2>
+					<label for="nombre">Nombre:</label>
+					<input id="nombre" type="text" name="nombre" placeholder="Nombre..." required=""/>
+					<label for="email">Email:</label>
+					<input id="email" type="text" name="email" placeholder="Correo Electronico..." required=""/>
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="submit" name="mensaje" placeholder="Mensaje..." required=""></textarea>
+					<input id="submit2" type="submit" name="submit" value="Enviar"/>
+				</form>
+			</div>
+
+		</div>
+
+		<div class="clearfix"></div>
+				<!--Signo de CopyRight  negrita                      Espacio -->
+		<div id="copyright">&copy; 2017 <strong>ANACAFÉ</strong> | Todos los derechos reservados. </div>
+
+		</footer>
+
+		</dir> <!-- Fin de wrapper -->
+
+	</body>
+
+</html>
